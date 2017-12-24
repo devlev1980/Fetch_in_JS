@@ -1,0 +1,48 @@
+.container{
+  margin: 2rem auto;
+  /* display: flex;
+  justify-content: space-around */
+  
+}
+#output{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  padding: 0.5rem;
+}
+ul{
+  background-color: #5CB8AD;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+ul.z-depth-3 {
+  margin-left: 9px;
+  padding: 1rem
+}
+ul.z-depth-4{
+  background-color: #3776CC;
+  font-size: 1.2rem
+}
+ul.z-depth-2{
+  background-color:#612794;
+  font-size: 1.2rem;
+  width:200px;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 55px;
+}
+img{
+  width: 100px;
+  height: auto
+}
+a{
+  border-bottom: 1px solid #3776CC;
+  margin-top: 3px;
+}
+ul li {
+
+  margin-right: 5px;
+  
+ 
+}
